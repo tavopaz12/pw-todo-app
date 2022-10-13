@@ -6,7 +6,7 @@ class PwTodo extends LitElement {
   }
 
   render() {
-    return html`<slot><h1>Estoy en las sombras</h1></slot>`;
+    return html`<slot></slot><h1>Estoy en las sombras</h1>`;
   }
 }
 
